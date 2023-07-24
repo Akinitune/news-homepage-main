@@ -1,0 +1,271 @@
+body{
+    margin: 1%;
+}
+header{
+    
+}
+header div{font-size: 45px;
+
+font-weight: bold;
+letter-spacing: -3px;}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+    width:40% ;
+    font-size: 20px;
+    margin-left: 56%;
+
+}
+#cover{}
+.menu{
+position: absolute;
+top: -17px;
+left: 100px;
+font-size: 90px;
+    visibilIty: hidden;}
+#menux{
+    position: absolute;
+    top: -17px;
+    left: 100px;
+    font-size: 50px;
+    visibilIty: hidden;}
+
+@media screen and  (max-width:375px){
+body{
+    margin-left: 15px;
+margin-top: 10px;
+margin-right: 15px;
+}
+
+header ul{
+flex-direction: column;
+margin-top: 40%;
+margin-left:-20px;
+font-size:24px ;
+}
+header li{margin-top: 10.5%;}
+#cover{background-color: rgb(255, 255, 255);
+    visibility: hidden;
+position: absolute;
+margin-top: -70px;
+height: 100vh;
+border: solid white;
+
+width: 70vw;
+left:30vw;}
+.menu{z-index: ;
+visibility: visible;
+top: -19px;
+left: 80vw;
+}
+#menux{z-index: 1;
+    visibility: hidden;
+    top: -3px;
+    left: 82vw;
+    font-family: cursive;
+    }
+}
+
+
+.mainpage img{
+    width: 65%;
+    height: 220px;
+    margin-top: 2.2%;
+}
+@media screen and  (max-width:375px){
+.mainpage img{
+width: 100%;
+height: 270px;
+
+}
+}
+
+header li{ 
+    color: gray;
+    list-style: none;
+}
+header li:hover{
+    color: rgb(248, 32, 32);
+}
+
+aside{width: 22%;
+position: absolute;
+top: 15.5vh;
+color: white;
+left: 75.2vw;
+height: 370px;
+background-color: rgb(1, 1, 22);
+
+}
+
+aside h1{
+    font-size: 45px;
+    margin-top: 9px;
+    color: rgb(243, 195, 93);
+    font-family: monospace;
+}
+aside div{
+    padding-left: 5%;
+}
+aside h2{
+    font-size: 18px;
+    margin-top: -15px;
+}
+aside h2:hover{color: rgb(243, 195, 93);}
+aside p{color: gray;
+    font-size: 13.5px;
+    border-bottom: solid 1px;
+    width: 250px;
+    line-height: 18px;
+    padding-bottom: 15px;
+}
+@media screen and  (max-width:375px){
+    aside{ 
+      width: 90vw;
+      height: 480px;
+       position: relative;
+  left: 1vw;}
+  aside h1{
+    font-size: 35px;
+    margin-top: 12px;
+    padding-top: 6%;
+    padding-left: 2%;
+}
+aside h2{
+    padding-left: 2%;
+    font-size: 22px;
+    margin-top: 4px;
+}
+aside p{
+    font-size: 16px;
+    border-bottom: solid 1px;
+    width: 295px;
+    padding-left: 2%;
+    padding-bottom: 15px;
+}
+aside br{display: none;}
+
+
+
+
+
+  }
+.mainpage div{
+    font-size: 15px;
+    margin-left: 35vw;
+    margin-top: -10%;
+    color: gray;
+}
+.mainpage h1{width: 30vw;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: bold; 
+}
+.mainpage button{
+margin-top: 23px;
+background-color: rgb(1, 1, 22);
+border: none;
+color: white;
+height: 40px;
+width: 130px;
+text-transform: uppercase;
+font-size: 11px;
+}
+
+
+@media screen and  (max-width:375px){
+    .mainpage h1{width: 100vw;
+        margin-top: 10px;
+        font-size: 50px;
+        font-weight: bold; 
+    }
+    .mainpage div{
+        font-size: 18px;
+        margin-left: 1vw;
+        margin-top: -5%;    
+    }
+    .mainpage br{display: none;}
+    .mainpage button{position: absolute;
+        margin-top: 40px;
+       left: 5vw;
+        }
+
+
+
+
+}
+.mainpage button:hover{
+    background-color: rgb(248, 32, 32);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box1{
+width: 300px;
+
+}
+.text1{
+    color: gray;
+    margin-left:90px;
+    margin-top: -110px;
+    line-height: 8px;
+}
+.box1 img{
+    
+    padding: 2px;
+    height: 90px;
+    width: 70px;
+}
+.text1 h3{
+    font-size: 14px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1px;
+}
+.text1 h3:hover{
+    color: rgb(248, 32, 32);
+}
+nav{}
+.text1 p{
+    font-size: 14px;
+line-height: 17px;} 
+
+
+
+
+@media screen and  (max-width:375px){
+    footer{
+        flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20%;
+    }
+
+    .box1{
+       padding-top: 10%;
+        
+        }
+        .box1 img{
+     padding: 2px;
+            height: 140px;
+            width: 110px;
+        }
+
+        .text1{
+           width: 60vw;
+            margin-left:140px;
+            margin-top: -170px;
+            line-height: 10px;
+        }
+        .text1 h3{
+            font-size: 15px;} 
+         .text1 h2{
+                font-size: 50px;} 
+        .text1 p{
+                    font-size: 17px;
+                    line-height: 25px;} 
+}  
