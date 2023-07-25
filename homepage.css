@@ -1,9 +1,7 @@
 body{
     margin: 1%;
 }
-header{
-    
-}
+
 header div{font-size: 45px;
 
 font-weight: bold;
@@ -18,7 +16,7 @@ header ul{
     margin-left: 56%;
 
 }
-#cover{}
+
 .menu{
 position: absolute;
 top: -17px;
@@ -55,7 +53,7 @@ border: solid white;
 
 width: 70vw;
 left:30vw;}
-.menu{z-index: ;
+.menu{
 visibility: visible;
 top: -19px;
 left: 80vw;
@@ -230,7 +228,7 @@ width: 300px;
 .text1 h3:hover{
     color: rgb(248, 32, 32);
 }
-nav{}
+
 .text1 p{
     font-size: 14px;
 line-height: 17px;} 
