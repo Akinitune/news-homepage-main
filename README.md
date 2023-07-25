@@ -50,25 +50,19 @@ I started with the Html, creating a structured template to include my styles in 
 ### What I learned
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
+
+
 
 ```css
-.proud-of-this-css {
-  max-width: 355px;
-  height: 50%;
-}
-```
+
+
 
 ```js
-const proudOfThisFunc = switch(nomber){
-    case 1:document.getElementById('there').innerHTML = " You 1 selected  out of 5";
-}
-```
+
 
 ### Continued development
 
-javascript for better funtionality of a website
+Javascript for better funtionality of a website
 
 ## Author
 
